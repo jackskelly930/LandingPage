@@ -1,0 +1,157 @@
+html { 
+    overflow-y: auto; overflow-x:hidden; 
+}
+
+body {
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.logo {
+    margin-right: auto;
+    padding-left: 15px;
+    color: black;
+}
+
+.header1,
+.header2,
+.header3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bodycontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    background-color: lightblue;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.bodytext {
+    width: 350px;
+    margin-left: 45px;
+}
+
+.titletext {
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.infotext {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 220px;
+    height: 200px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 8px 16px;
+    background-color: azure;
+}
+
+.secondheader {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 45px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.secondbody,
+.secondimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondbody{
+    gap: 70px;
+}
+
+.boximg {
+    padding: 5px;
+    align-items: center;
+}
+
+.subtextinfo {
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.thirdbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: lightgrey;
+}
+
+.bodyquote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 900;
+}
+
+.fourthbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: white;
+}
+
+.action,
+.product {
+    font-weight: 700;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
